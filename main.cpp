@@ -256,7 +256,7 @@ int main(int argc, const char* argv[]) {
             //then with the current country loaded, displays data
 
             //std::string userDate;
-            std::cout << "Enter data of interest using \"MM/DD/YY\" format (Do not include leading zeroes in day or month): ";
+            std::cout << "Enter data of interest using \"MM/DD/YYYY\" format (Do not include leading zeroes in day or month): ";
             std::cin >> dateString;
 
             std::cout << "New Cases: " << currentCountry.getNewCases(dateString) << std::endl;
