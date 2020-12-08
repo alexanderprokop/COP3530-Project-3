@@ -276,12 +276,9 @@ int main(int argc, const char* argv[]) {
 
                 std::vector<Country> caseCounts;
                 tree.LoadCountries(tree.GetRoot(), caseCounts);  //load up all Countries into this vector
-                std::cout << "Here 1" << std::endl;
                 SelectionSortCases(caseCounts); //use function call to sort loaded vector
-                std::cout << "Here 2" << std::endl;
                 //print sorted vector
-                printVectorCases(caseCounts, false); //want in descending order
-                std::cout << "Here 3" << std::endl;
+                printVectorCases(caseCounts, false); //want in descending order     
 
             }
             else if (AVLOrUnorderedMap == 2) {  // Unordered Map
